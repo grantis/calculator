@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+
+  <link rel="stylesheet" href="sassy.css">
+  <link rel="stylesheet" href="normalize.css">
+  <title>Calculator</title>
+</head>
+
+<body>
+  <div class="calculator">
+  <div class="calculator__display"></div>
+  <div class="calculator__keys">
+     <button id="add" class="key--operator" value="+" data-action="add">+</button>
+     <button id="subtract" class="key--operator" value="-" data-action="subtract">-</button>
+     <button id="multiply" class="key--operator" value="*" data-action="multiply">&times;</button>
+     <button id="divide" class="key--operator" value="/" data-action="divide">÷</button>
+     <button id="seven" class="key--number" value="7">7</button>
+     <button id="eight" class="key--number" value="8">8</button>
+     <button id="nine" class="key--number" value="9">9</button>
+     <button id="four" class="key--number" value="4">4</button>
+     <button id="five" class="key--number" value="5">5</button>
+     <button id="six" class="key--number" value="6">6</button>
+     <button id="equals" class="key--equal" value="=" data-action="calculate">=</button>
+     <button id="one" class="key--number" value="1">1</button>
+     <button id="two" class="key--number" value="2">2</button>
+     <button id="three"class="key--number" value="3">3</button>
+     <button id="zero"class="key--number" value="0">0</button>
+     <button id="decimal" class="btn" value="." data-action="decimal" >.</button>
+     <button id="AC" class="btn" value="ac" data-action="clear">AC</button>
+  </div>
+</div>
+
+  <script type="text/javascript" src="logic.js" ></script>
+
+</body>
+</html>
